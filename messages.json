@@ -1,0 +1,9 @@
+{
+  "minecraft": {
+    "description": "Łączy Twoje konto Discord z kontem Minecraft (kod z komendy /discord w grze).",
+    "option": "Kod z komendy /discord na serwerze Minecraft",
+    "success": "Połączono z kontem Minecraft **{nick}**. Twój pseudonim to teraz Twój nick z gry.",
+    "already": "Twoje konto Discord jest już połączone z kontem Minecraft **{nick}**.",
+    "invalid": "Ten kod jest nieprawidłowy albo wygasł. Wpisz `/discord` na serwerze Minecraft, aby dostać nowy."
+  }
+}

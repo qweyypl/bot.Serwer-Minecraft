@@ -1,0 +1,17 @@
+{
+  "name": "voltcraft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DISCORD BOT for \"VoltCraft\" — logs in as VoltCraft and shows its configured Activity. No other functionality.",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "node ."
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "voltapi-sdk": "file:../VoltAPI-SDK"
+  }
+}
