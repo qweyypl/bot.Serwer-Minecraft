@@ -28,6 +28,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
         console.log(`Zalogowano jako ${client.user.tag}.`);
         sdk.bot.startActivity(client, BOT_ID);
         sdk.sync.start(client);
+        sdk.verify.start(client, BOT_ID);
 
         const guild = await client.guilds.fetch(main.Discord.Guild).catch(() => null);
         if (guild) {
